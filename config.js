@@ -5,7 +5,7 @@ const config = {
   auth: {
     api : true,
     api_user: 'admin',
-    api_pass: 'admin',
+    api_pass: 'asdfg99',
   },
   rtmp: {
     port: 1935,
@@ -26,7 +26,7 @@ const config = {
       {
         app: 'live',
         hls: true,
-        hlsFlags: '[hls_time=5:hls_list_size=6:hls_flags=delete_segments:hls_start_number_source=epoch]'
+        hlsFlags: '[hls_time=5:hls_list_size=24:hls_flags=delete_segments]'
       }
     ],
   },
